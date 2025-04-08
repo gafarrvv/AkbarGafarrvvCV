@@ -1,0 +1,34 @@
+body {
+    font-family: Arial,sans-serif;/*Yazı şriftini Arial və sans-serif olaraq təyin edir*/
+    margin: 20px;/*Gövdəyə 20px boşluq əlavə edir*/
+}
+h1 {
+    text-align: center;/*h1 başlıqlarını mərkəzə gətirir*/
+}
+.profile-photo {
+    width: 200px; /*Şəkilin enini 200px olaraq təyin edir*/
+    height: auto; /*Hündürlüyü avtomatik təyin edir*/
+    border-radius: 10px; /*Künclərin yumrulaşması*/
+    border: 2px solid #ddd; /*2px qalınlıqda və #ddd rəngdə çərçivə xətti əlavə edir*/
+    display: block; /*Şəkili blok kimi görsədir*/
+    margin: 0 auto; /*Şəkili mərkəzləşdirir*/
+}
+h1, h2 {
+    color: #000000;/*h1 və h2 başlıqlarının rəngini #000000 olaraq təyin edir*/
+}
+table {
+    width: 100%;/*Cədvəlin enini tam genişlikdə edir*/
+    border-collapse: collapse;/*Sərhədləri birləşdirir*/
+    margin-bottom: 20px;/*Cədvəlin altında 20px boşluq əlavə edir*/
+}
+th, td {
+    border: 1px solid #ddd;/*Cədvəlin boşluqlarına 1px qalınlıqda və #ddd rəngdə xətt əlavə edir*/
+    padding: 8px;/*Söz ilə cədvəl xəttinin arasına hər tərəfdən 8px boş qoyur*/
+    text-align: left;/*Mətnləri sol tərəfə keçirir*/
+}
+th {
+    background-color: #f2f2f2;/*Cədvəl başlıqlarının fon rəngini #f2f2f2 olaraq təyin edir*/
+}
+.section {
+    margin-bottom: 20px;/*bu sinifin elementlərinin altına 20px boş yer təyin edir*/
+}
