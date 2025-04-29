@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Gafarov - CV</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1>Akbar Gafarov - CV</h1>
+    <div class="section">
+        <h2>Foto</h2>
+        <img src="foto/Akbarfoto.png" alt="Foto təsviri" style="width:200px; height:auto; border-radius:10px;" >
+    </div>
+    
+<div class="section">
+    <button class="accordion">Şəxsi məlumatlar</button>
+    <div class="panel">
+        <table>
+            <tr><th>Şəxsi məlumatlar</th><th>Təsviri</th></tr>
+            <tr><th>Ad Soyad</th><td>Akbar Gafarov</td></tr>
+            <tr><th>Telefon</th><td>+994103138723</td></tr>
+            <tr><th>E-poçt</th><td>Ekberqafarov06@gmail.com</td></tr>
+            <tr><th>Ünvan</th><td>Bakı şəhəri,Nizami rayonu,Özbəkistan küçəsi 9</td></tr>
+        </table>
+    </div>
+</div>
+
+    
+<div class="section">
+    <button class="accordion">Təhsil</button>
+    <div class="panel">
+        <table>
+            <tr><th>Təhsil</th><th>Təsviri</th></tr>
+            <tr><th>Universitet</th><td>Azərbaycan Texniki Universiteti</td></tr>
+            <tr><th>İxtisas</th><td>İnformasiya Təhlükəsizliyi,Kibertəhlükəsizlik</td></tr>
+            <tr><th>Qrup</th><td>6424A2</td></tr>
+            <tr><th>Kurs</th><td>I kurs</td></tr>
+        </table>
+    </div>
+</div>
+
+    
+<div class="section">
+    <button class="accordion">Bacarıqlar</button>
+    <div class="panel">
+        <table>
+            <tr><th>Bacarıq</th><th>Təsviri</th></tr>
+            <tr><td>Windows,Linux</td><td>Windows və Linux əməliyyat sistemi bilikləri</td></tr>
+            <tr><td>Kali Linux</td><td>Əməliyyat sistemi bilikləri və alətlərlə işləmə bacarığı</td></tr>
+            <tr><td>Proqramlaşdırma</td><td>Orta səviyyədə baza bilikləri</td></tr>
+            <tr><td>Şəbəkə</td><td>Orta səviyyədə şəbəkə bilikləri və helpdesk bilikləri</td></tr>
+        </table>
+    </div>
+</div>
+
+    
+<div class="section">
+    <button class="accordion">Layihələr</button>
+    <div class="panel">
+        <table>
+            <tr><th>Layihələr</th><th>Təsviri</th></tr>
+            <tr><td>Layihə</td><td>Universitet tərkibində layihələrdə iştirak etmişəm</td></tr>
+        </table>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const acc = document.getElementsByClassName("accordion");
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    });
+    </script>
+
+
+
+</body>
+</html>
